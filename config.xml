@@ -3,7 +3,7 @@
     <name>nativeTesting2</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://192.168.137.1:8100" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -84,5 +84,6 @@
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
     <plugin name="cordova-plugin-tts" spec="0.2.3" />
     <allow-navigation href="http://172.17.59.57:8100" sessionid="619efe61" />
+    <allow-navigation href="http://192.168.137.1:8100" sessionid="aa6c4c4d" />
     <engine name="android" spec="7.1.1" />
 </widget>
